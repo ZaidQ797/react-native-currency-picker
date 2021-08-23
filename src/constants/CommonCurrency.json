@@ -1,23 +1,23 @@
 {
     "USD": {
         "symbol": "$",
-        "name": "US Dollar",
+        "name": "Dollar américain",
         "symbol_native": "$",
         "decimal_digits": 2,
         "rounding": 0,
         "code": "USD",
-        "name_plural": "US dollars",
+        "name_plural": "Dollar américain",
         "popular": true
     },
    
     "CDF": {
         "symbol": "CDF",
-        "name": "Congolese Franc",
+        "name": "Franc congolais",
         "symbol_native": "FrCD",
         "decimal_digits": 2,
         "rounding": 0,
         "code": "CDF",
-        "name_plural": "Congolese francs"
+        "name_plural": "Franc congolais"
     },
    
 }
