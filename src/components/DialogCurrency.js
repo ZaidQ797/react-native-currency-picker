@@ -134,7 +134,7 @@ export const DialogCurrency = (props) => {
                     <Text style={styles.btnClose}>X</Text>
                 </TouchableOpacity>}
             </View>
-//             <View style={styles.search}>
+            <View style={styles.search}>
 //                 <View style={[styles.textInputContainer, searchStyle]}>
 //                     <TextInput
 //                         autoFocus
@@ -145,7 +145,7 @@ export const DialogCurrency = (props) => {
 //                         style={[styles.textTitleSmallerWhite, styles.textInput]}
 //                     />
 //                 </View>
-//             </View>
+            </View>
             <View style={styles.listContainer}>
                 <FlatList
                     keyboardShouldPersistTaps={'handled'}
