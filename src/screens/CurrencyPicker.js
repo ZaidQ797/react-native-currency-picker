@@ -122,8 +122,9 @@ const styles = StyleSheet.create({
     },
     txtCurrencyCode: {
         ...Styles.fontDefault,
-        marginLeft: 10,
+        marginLeft: 7,
         fontWeight: "600",
+         bottom:3,
         fontFamily:fonts.LexendMedium
     }
 });
