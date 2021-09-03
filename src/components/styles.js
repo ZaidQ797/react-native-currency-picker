@@ -1,8 +1,8 @@
 import { StyleSheet, Platform } from 'react-native';
 import { Styles, ColorDarkMode, ColorLightMode } from "../styles";
 import { getStatusBarHeight } from "react-native-status-bar-height";
-
-export const getStyles = (darkTheme = true) => {
+import { fonts } from '../../../../src/utilities/fonts';
+export const getStyles = (darkTheme = false) => {
 
     const Colors = darkTheme ? ColorDarkMode : ColorLightMode;
 
@@ -40,7 +40,8 @@ export const getStyles = (darkTheme = true) => {
             color: Colors.txtCountryName,
             marginBottom: marginBottomByPlatform,
             marginHorizontal: 20,
-            fontSize: 14
+            fontSize: 14,
+            fontFamily:fonts.LexendMedium,
         },
         commonSymbolCode: {
             color: Colors.txtCallingCode,
@@ -48,7 +49,7 @@ export const getStyles = (darkTheme = true) => {
             marginLeft: 20,
             fontSize: 14,
             flex: 1,
-            textAlign: "right"
+            textAlign: "right",
         },
         search: {
             ...Styles.justifyCenter,
