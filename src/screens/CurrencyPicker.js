@@ -4,7 +4,7 @@ import { Styles } from '../styles';
 import dataCurrency from "../constants/CommonCurrency.json";
 import { DialogCurrency } from '../components';
 import { CurrencyFlag } from "../components/CurrencyFlag";
-
+import { fonts } from '../../../../src/utilities/fonts';
 export const CurrencyPicker = (props) => {
 
     const currencies = Object.values(dataCurrency);
@@ -123,6 +123,7 @@ const styles = StyleSheet.create({
     txtCurrencyCode: {
         ...Styles.fontDefault,
         marginLeft: 10,
-        fontWeight: "600"
+        fontWeight: "600",
+        fontFamily:fonts.LexendMedium
     }
 });
